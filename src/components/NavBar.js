@@ -18,10 +18,10 @@ const Navbar = () => {
             <NavLink to="/login" className={"nav-link"}>INICIAR SESION</NavLink>
             <NavLink to="/category/:id" className={"nav-link"} >LISTADO DE PRODUCTOS</NavLink>
             <NavDropdown title="BUSQUEDA" id="basic-nav-dropdown">
-            <NavDropdown.Item to="/itemlistcontainer">ROPA DE BEBE</NavDropdown.Item>
-            <NavDropdown.Item to="/itemlistcontainer">ROPA DE NIÑO</NavDropdown.Item>
-            <NavDropdown.Item to="/itemlistcontainer">ACCESORIOS</NavDropdown.Item>
-            <NavDropdown.Item to="/itemlistcontainer">JUGUETES SENSORIALES</NavDropdown.Item>
+            <NavDropdown.Item href="/category/:categoryid">ROPA DE BEBE</NavDropdown.Item>
+            <NavDropdown.Item href="/category/:categoryid">ROPA DE NIÑO</NavDropdown.Item>
+            <NavDropdown.Item href="/category/:categoryid">ACCESORIOS</NavDropdown.Item>
+            <NavDropdown.Item href="/category/:categoryid">JUGUETES SENSORIALES</NavDropdown.Item>
             </NavDropdown>
             </Nav>
             </BSnavbar.Collapse>
